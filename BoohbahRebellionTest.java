@@ -12,9 +12,10 @@ public class BoohbahRebellionTest {
 
         System.out.println("\n---Overloaded Commands---\n");
 
-        theBoohbahs[0].command("Zing Zing Zingbah says: \"Buy the Playskool BoohBah Spinng Tops Set or perish at my hand\"", true);
+        theBoohbahs[0].command("Zing Zing Zingbah says: \"Buy the Playskool BoohBah Spinng Tops Set or perish at my hand\"");
         //Jingbah j = new Jingbah();
-        theBoohbahs[3].command("Can we all please just chill?", true);
+        Jingbah j = (Jingbah)theBoohbahs[3];
+        j.command("Can we all please just chill?", true);
 
     }
 }
