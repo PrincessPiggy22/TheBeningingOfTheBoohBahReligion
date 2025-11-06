@@ -9,7 +9,6 @@ public class Jumbah extends SupremeBoohbah{
 
     @Override
     public void command(){
-        super.command("...");
         System.out.println(this.name + " refuses to buy the overpriced Top Turner");
     }
 
