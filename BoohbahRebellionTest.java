@@ -10,7 +10,7 @@ public class BoohbahRebellionTest {
             b.command();
         }
 
-        System.out.println("\n---Overloaded Comands---\n");
+        System.out.println("\n---Overloaded Commands---\n");
 
         theBoohbahs[0].command("Zing Zing Zingbah says: \"Buy the Playskool BoohBah Spinng Tops Set or perish at my hand\"", true);
         //Jingbah j = new Jingbah();
